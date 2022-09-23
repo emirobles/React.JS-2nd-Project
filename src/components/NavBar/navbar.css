@@ -1,0 +1,51 @@
+.shadow {
+    width: 100%;
+    height: 85px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: #464246;   
+    z-index: 1;
+    background-color: black;
+}
+
+.logo{
+    height: 35px;
+}
+
+.name { 
+    width: 210px;
+    height: 60px;    
+}
+
+#btn-new a{
+    color:aliceblue;
+    padding: 5px;
+    text-decoration: none;
+    border: solid 1px orange;
+    border-radius: 5px;
+}
+
+#bg-nav{
+    background-color: #1f1a1f;
+    padding: 10px;
+}
+
+#offcanvasNavbar {
+    font-family: roboto, serif;
+    font-size: larger;
+    margin-top: 10px;
+    padding-right: 40px;
+}
+
+ul a{
+    list-style-type: none;
+    text-decoration: none;
+    color: rgb(253, 129, 13)   
+    
+}
+
+.navbar-nav {
+    justify-content: space-between;
+    overflow: hidden;
+}

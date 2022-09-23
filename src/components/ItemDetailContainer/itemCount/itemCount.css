@@ -1,0 +1,23 @@
+.contador {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    border: solid 1px #e98a04;
+    background-color: #cfcdb7;
+}
+
+.btn-circle-two {
+    border: solid 1px #e98a04;
+    background-color: #cfcdb7;
+}

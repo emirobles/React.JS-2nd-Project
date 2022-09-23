@@ -1,0 +1,9 @@
+.card {
+    margin-top: 8%;
+    margin-left: 8%;
+    display: inline-block;
+    font-size: 15px;
+    margin-bottom: 5%;
+    text-align: center;
+    background-color: rgb(29, 28, 28);
+}

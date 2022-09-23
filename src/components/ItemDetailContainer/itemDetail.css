@@ -1,0 +1,29 @@
+.card {
+    margin-top: 8%;
+    margin-left: 8%;
+    display: inline-block;
+    font-size: 15px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.detallesProducto {
+    margin-left: 35%;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+    border: solid 1px #081832;
+    background-color: #B7C4CF;
+}
+
+.btn-circle-two {
+    border: solid 1px #081832;
+    background-color: #B7C4CF;
+}

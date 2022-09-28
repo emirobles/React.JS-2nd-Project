@@ -1,7 +1,7 @@
 .cart {
     margin-right: 40px;
     padding-top: 8px;
-    background-color: rgba(233, 158, 117, 0.7);
+    background-color: rgba(67, 190, 235, 0.7);
     width: 50px;
     height: 40px;
     text-align: center;
@@ -12,15 +12,68 @@
 h1 {
     padding-top: 10%;
     padding-left: 5%;
+    color: #ccadde;
+}
+h5{
+    padding: 5px;
+    margin-left: 60px;
+
+}
+h6 {
+    color: white;
+}
+.gradient-text {
+    color: white;
+    text-shadow: 0 0 5px purple, 0 0 5px purple, 0 0 5px purple, 0 0 5px purple;
+}
+
+/* --- Productos--- */
+.productInCart {
+    background-color: rgba(117, 191, 233, 0.912);
+    height: 170px;
+    width: 80%;
+    margin-left: 15%;
+    margin-bottom: 4%;
+}
+
+.imgProductInCart {
+    width: 210px;
+    height: 170px;
+    border-radius: 15%;
+    margin-left: 100px;
+    margin: 20px;    
+}
+
+.detailsProductInCart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+    color: white;
+    padding: auto;
+}
+
+.titleProductInCart {
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn-circle-CartItem {
+    border: solid 1px #081832;
+    background-color: #e86ebd;
+    margin-left: 91%;
+    margin-top: 60%;
+    
 }
 
 /* --- Lista --- */
 .productInCart {
-    background-color: rgba(233, 158, 117, 0.6);
-    height: 150px;
+    background-color: rgba(16, 128, 220, 0.961);
+    padding: 20px;
+    height: 250px;
     width: 90%;
     margin-left: 5%;
     display: inline-flex;
+    border-radius: 10px;
 }
 
 .btn-circle {
@@ -32,17 +85,37 @@ h1 {
     font-size: 12px;
     line-height: 1.42857;
     border: solid 1px #081832;
-    background-color: #B7C4CF;
+    background-color: #ac49e5;
+}
+.btn-circle-cleanCart {
+    border: solid 1px #060708;
+    background-color: #cd81d4;
+    color: #ffffff;
+    font-family: 'Gill Sans', sans-serif;
+    
+}
+.btn-circle-endCart {
+    border: solid 1px #060708;
+    background-color: #b614d2;
+    color: #ffffff;
+    font-family: 'Gill Sans', sans-serif;
+
 }
 
+.totalPrice {
+    margin-top: 3%;
+    margin-left: 85%;
+    color: white;
+    background-color: aqua;
+}
 /* --- Vacio --- */
 .cartEmptyContainer {
     margin-top: 10%;
     width: 500px;
-    height: 600px;
+    height: 500px;
     margin-left: 37%;
     padding-top: 15px;
-    background-color: rgba(233, 158, 117, 0.434);
+    background-color: rgba(117, 171, 233, 0.97);
     color:white
 }
 
@@ -56,5 +129,5 @@ h1 {
     margin-left: 30%;
     margin-top: 7%;
     border: solid 1px #081832;
-    background-color: #B7C4CF;
+    background-color: #d86df3;
 }

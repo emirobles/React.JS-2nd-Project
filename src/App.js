@@ -1,9 +1,16 @@
 import './App.css';
 import Navbars from './components/NavBar/NavBar';
-import Router from './app/Router'
-
+import Router from './app/Router';
+import { collection, getDocs } from 'firebase/storage';
+import { db } from './components/FirebaseConfig'
+import { useEffect } from 'react';
+import { async } from '@firebase/util';
+import { useState} from 'react';
 
 function App() {
+  const [plushName, setPlushName] = useState();
+  
+
   return (
     <div className="App">
      <Router/>

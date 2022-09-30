@@ -5,11 +5,11 @@ import './navbar.css'
 
 const NavBar = () => {
   return (
-    <div id="bg-nav">
-      <div className="name">
-        <img src={fotoName} alt="" className="name" />
-      </div>
-      <nav className="navbar navbar-expand-lg navbar-light fixed-top ">
+    <div id="bg-nav">      
+      <nav className="navbar navbar-expand-lg navbar-light">
+        <div className="name">
+          <img src={fotoName} alt="" className="name" />
+        </div>
         <div className="container-fluid">
           <a className="navbar-brand" href="#navbar"></a>
           <button className="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">

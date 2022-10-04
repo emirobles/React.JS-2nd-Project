@@ -13,7 +13,7 @@ const ItemListContainer = () => {
     const { categoryId } = useParams()
 
     useEffect(() => {
-        const getProductos = () => new Promise((res) => {
+        /*const getProductos = () => new Promise((res) => {
             setTimeout(() => {
                 res(products)
             }, 1000)
@@ -22,13 +22,15 @@ const ItemListContainer = () => {
             getProductos().then(res => setProductos(res.filter((res) => res.category === categoryId)))
         } else {
             getProductos().then(res => setProductos(res))
-        }
+        }*/
         //Solo iria este codigo para la entrega Item Collection I
-        /*if (categoryId) {
-            getItems().then(res => setProductos(res.filter((res) => res.category === categoryId)))
+        if (categoryId) {
+            getItems()
+            .then(res => setProductos(res.filter((res) => res.category === categoryId)))
         } else {
-            getItems().then(res => setProductos(res))
-        } */
+            getItems()
+            .then(res => setProductos(res))
+        }
     }, [categoryId])
 
     return (

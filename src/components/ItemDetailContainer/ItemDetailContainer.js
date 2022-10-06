@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
 import ItemDetail from './ItemDetail.js'
 import product from '../../products';
-import {getItemById} from '../firebase-api';
+import {getItemById} from '../../app/firebase-api';
 
 const ItemDetailContainer = () => {
     const { itemId } = useParams()
